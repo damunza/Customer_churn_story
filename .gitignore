@@ -1,4 +1,57 @@
-*.env
+*/env/
 *.txt
 *.xlsx
 
+# Python-specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+venv/
+env/
+*.egg-info/
+.pipx/
+.pypirc
+*.whl
+dist/
+build/
+*.log
+
+# R-specific
+.Rproj.user/
+*.Rhistory
+*.RData
+*.rds
+*.Rds
+.Renviron
+.Rprofile
+*.Rproj
+.RSession-*
+
+# Data analysis temporary/output files
+*.csv.bak
+*.tsv.bak
+*.txt.bak
+*.xlsx.bak
+*.xls.bak
+output/
+temp/
+tmp/
+cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Common editor/IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Add specific large data files or sensitive files if needed
+# e.g., sensitive_data.csv
