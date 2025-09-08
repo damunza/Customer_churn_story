@@ -1,0 +1,19 @@
+---
+title: "Telcom Churn Story Telling"
+author: "Nzambuli Daniel"
+date: "2025-09-07"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Read the Data 
+
+```{r}
+data_path = "../Telco_customer_churn.xlsx"
+library(readxl)
+raw_data <- read_excel(data_path)
+head(raw_data)
+```
